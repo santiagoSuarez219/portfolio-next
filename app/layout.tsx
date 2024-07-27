@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-// import "@/public/fonts/fontawesome-free-6.1.2-web/css/all.min.css";
 
 export const metadata: Metadata = {
   title: "Portfolio - Santiago Suarez",
