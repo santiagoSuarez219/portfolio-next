@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+// import "@/public/fonts/fontawesome-free-6.1.2-web/css/all.min.css";
 
 export const metadata: Metadata = {
-  title: "Santiago Suarez",
+  title: "Portfolio - Santiago Suarez",
   description: "Personal portfolio of Santiago Suarez",
 };
 
@@ -15,8 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="es">
+      <body>{children}</body>
     </html>
   );
 }
